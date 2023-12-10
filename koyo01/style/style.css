@@ -1,0 +1,42 @@
+@charset "UTF-8";
+
+:root {
+    --cor01: rgb(205, 192, 173);
+    --cor02: rgb(146, 122, 36);
+    --cor03: rgb(179, 88, 23);
+    --cor04: rgb(171, 46, 14);
+    --cor05: rgb(68, 73, 41);
+}
+
+body {
+    background-color: white;
+}
+
+header {
+        color: white;
+        background-color: var(--cor01);
+}
+
+header img {
+    padding: 0px;
+    margin: 0px;
+}
+
+header > h1 {
+    text-align: center;
+    font-size: 3em;
+    color:var(--cor05);
+}
+
+header > p {
+    text-align: center;
+}
+
+nav {
+    padding: 10px;
+    background-color: var(--cor01);
+}
+
+mark {
+    background-color: aqua;
+}
